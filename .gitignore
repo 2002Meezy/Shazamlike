@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+
+# Banco de dados
+db/*.db
+db/*.db-journal
+
+# Arquivos de áudio grandes
+*.mp3
+*.wav
+
+# Temporários
+data/temp_*.wav
+data/*_fingerprint_viz.png
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

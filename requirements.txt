@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+customtkinter
+packaging
+sounddevice
+soundfile
+Pillow
