@@ -1,16 +1,16 @@
-# 🎵 Shazamlike - Sistema de Reconhecimento Musical
+#  Shazamlike - Sistema de Reconhecimento Musical
 
 Sistema de reconhecimento musical inspirado no algoritmo do Shazam. Utiliza **audio fingerprinting** para identificar músicas a partir de gravações curtas, mesmo com ruído de fundo.
 
 ![Visualização do Fingerprinting](assets/fingerprint_v2.png)
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 🎙️ **Gravação via Microfone**: Grave 5 segundos de áudio e identifique músicas em tempo real
-- 📂 **Importação de Arquivos**: Reconheça músicas de arquivos WAV/MP3 locais
-- 💾 **Banco de Dados Local**: Adicione suas próprias músicas ao sistema
-- 📊 **Visualização**: Veja como o algoritmo de fingerprinting funciona
-- 🖥️ **Interface Gráfica**: UI moderna em Dark Mode (CustomTkinter)
+-  **Gravação via Microfone**: Grave 5 segundos de áudio e identifique músicas em tempo real
+-  **Importação de Arquivos**: Reconheça músicas de arquivos WAV/MP3 locais
+-  **Banco de Dados Local**: Adicione suas próprias músicas ao sistema
+-  **Visualização**: Veja como o algoritmo de fingerprinting funciona
+-  **Interface Gráfica**: UI moderna em Dark Mode (CustomTkinter)
 
 ## 🔬 Como Funciona
 
@@ -56,7 +56,7 @@ source .venv/bin/activate  # Linux/Mac
 pip install -r requirements.txt
 ```
 
-## 💻 Uso
+##  Uso
 
 ### Interface Gráfica (Recomendado)
 
@@ -65,9 +65,9 @@ python src/gui.py
 ```
 
 **Funcionalidades da GUI:**
-- 🎙️ **Botão "OUVIR"**: Grava 5s do microfone e identifica
-- 📂 **"Reconhecer Arquivo Local"**: Seleciona arquivo para reconhecer
-- ➕ **"Adicionar Música ao Banco"**: Cadastra nova música no banco de dados
+-  **Botão "OUVIR"**: Grava 5s do microfone e identifica
+-  **"Reconhecer Arquivo Local"**: Seleciona arquivo para reconhecer
+-  **"Adicionar Música ao Banco"**: Cadastra nova música no banco de dados
 
 ### Linha de Comando
 
@@ -92,7 +92,7 @@ Gera uma imagem mostrando:
 - Picos detectados (Constellation Map)
 - Formação de hashes (pares âncora-alvo)
 
-## 📁 Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 shazamlike/
@@ -109,7 +109,7 @@ shazamlike/
 └── requirements.txt
 ```
 
-## 🧪 Testando
+##  Testando
 
 1. **Adicione uma música:**
 ```bash
@@ -128,14 +128,8 @@ RESULTADO: Música detectada! (ID: 1)
 Score de Confiança: 175091 matches alinhados.
 ```
 
-## 🎯 Limitações Atuais
 
-- ⚠️ Funciona melhor com áudio de **alta qualidade** (WAV não comprimido)
-- ⚠️ Requer **ruído de fundo baixo** para melhores resultados
-- ⚠️ Banco de dados local (não escala para milhões de músicas como o Shazam real)
-- ⚠️ Algoritmo simplificado (sem otimizações de índice avançadas)
-
-## 🛠️ Tecnologias
+##  Tecnologias
 
 - **NumPy/SciPy**: Processamento de sinais (FFT, espectrogramas)
 - **SQLite**: Armazenamento de fingerprints
@@ -144,12 +138,9 @@ Score de Confiança: 175091 matches alinhados.
 - **CustomTkinter**: Interface gráfica moderna
 - **Matplotlib**: Visualizações
 
-## 📚 Referências
 
-- [An Industrial-Strength Audio Search Algorithm (Avery Wang)](https://www.ee.columbia.edu/~dpwe/papers/Wang03-shazam.pdf)
-- [How Does Shazam Work? (Toptal)](https://www.toptal.com/developers/algorithms/shazam-it-music-processing-fingerprinting-and-recognition)
 
-## 📝 Licença
+##  Licença
 
 MIT License - Sinta-se livre para usar em projetos pessoais e educacionais.
 
@@ -159,4 +150,4 @@ Contribuições são bem-vindas! Abra uma issue ou pull request.
 
 ---
 
-**Desenvolvido como projeto educacional para entender algoritmos de audio fingerprinting** 🎓
+**Desenvolvido como projeto educacional para entender algoritmos de audio fingerprinting Por Luiz Santiago ** 🎓
