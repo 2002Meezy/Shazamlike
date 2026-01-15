@@ -2,7 +2,7 @@
 
 Sistema de reconhecimento musical inspirado no algoritmo do Shazam. Utiliza **audio fingerprinting** para identificar músicas a partir de gravações curtas, mesmo com ruído de fundo.
 
-![Visualização do Fingerprinting](data/fingerprint_visualization.png)
+![Visualização do Fingerprinting](assets/fingerprint_v2.png)
 
 ## ✨ Funcionalidades
 
